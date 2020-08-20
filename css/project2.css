@@ -17,6 +17,19 @@ ul{
     margin:0;
 }
 
+h2, h3, h4{
+    font-weight:normal;
+}
+
+.navbar,
+.header,
+.services,
+.our-team,
+.testim,
+.our-projects,
+.footer {
+    min-width:1200px;
+}
 /* End Global */
 
 
@@ -45,6 +58,7 @@ ul{
     position: relative;
     top: 8px;
     left: 10%;
+    /* font-weight: bold; */
 }
 
 .brand span{
@@ -154,7 +168,7 @@ ul{
 .services h2{
     margin:0 0 50px;
     color:#222;
-    font-weight:normal;
+    /* font-weight: bold; */
 }
 
 .services .item{
@@ -179,7 +193,7 @@ ul{
 
 .services .item .info h3{
     color:#252525;
-    font-weight:normal;
+    /* font-weight:normal; */
     margin-bottom:10px;
 
 }
@@ -195,7 +209,7 @@ ul{
 }
 
 .our-team h2{
-    font-weight:normal;
+    /* font-weight:normal; */
     margin: 0 0 35px;
     color: #222;
 }
@@ -257,7 +271,7 @@ ul{
 
 .our-team .box:not(:first-child) img{
     width:100%;
-    border: 2px solid #f1a8ca;
+    border: 1px solid #f1a8cacb;
     padding: 1px;
 }
 
@@ -340,7 +354,7 @@ ul{
 }
 
 .our-projects h2{
-    font-weight: normal;
+    /* font-weight: normal; */
     margin: 0 0 50px;
     color: #222;
 }
@@ -431,6 +445,82 @@ ul{
 .our-projects .shuffle li{cursor: pointer;}
 
 /* Start Project */
+
+
+/* Start Footer */
+.footer{
+    background-color:#232323;
+    color:#8a8383;
+    padding:40px 0;
+    overflow:hidden;
+}
+
+.footer .col{
+    width:25%;
+    float:left;
+}
+.footer .col h2{
+    color:#e6e6e6;
+    /* font-weight:normal; */
+    font-size:18px;
+}
+
+.footer .col p{
+    margin-bottom:40px;
+    line-height:1.6;
+}
+
+.footer .container{
+    padding-left: 40px;
+}
+
+.footer .col i {
+    display:inline-block;
+    color:#a1a1a1;
+    border:1px solid #a1a1a1;
+    padding:10px;
+    width:40px;
+    cursor: pointer;
+}
+
+.footer .tags span{
+    display:inline-block;
+    color:#cccaca;
+    border:1px solid #999;
+    padding:10px;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+
+.footer .recent > div {
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+.footer .recent > div img{
+    float:left;
+    margin-right:10px;
+    border: 1px solid #EEE;
+    padding: 1px;
+}
+
+.footer .recent > div h4{
+    margin:8px 0;
+    font-size: 16px;
+    color: #cccaca;
+    font-weight:normal;
+}
+
+.footer .blog ul li{
+    border-bottom:1px solid #979797;
+    padding:15px;
+    color:#cccaca;
+}
+
+.footer .copyright{
+    margin-top:30px;
+}
+/* End Footer */
 
 
 /* Start My Framework */
