@@ -99,4 +99,13 @@ $(function(){
         $(this).addClass('selected').siblings().removeClass('selected');
     });
 
+    /// adjusting NiceScroll / Trigger
+    $("html").niceScroll({
+        cursorcolor : "#f96ea3",
+        cursorwidth : "6.5px",
+        cursorborder : "#f96ea3",
+        scrollspeed : "75",
+        zindex:99999999,
+    
+    });
 });
