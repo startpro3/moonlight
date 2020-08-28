@@ -483,15 +483,15 @@ h2, h3, h4{
     cursor: pointer;
 }
 
-.face {
-    color:#4267b2 !important;
+.footer .col i.face {
+    color: #4267b2 !important;
 }
 
-.insta {
+.footer .col i.insta {
     color:#e8334e !important;
 }
 
-.yout {
+.footer .col i.yout {
     color:#F00 !important;
 }
 
