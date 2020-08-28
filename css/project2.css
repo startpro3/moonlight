@@ -483,16 +483,16 @@ h2, h3, h4{
     cursor: pointer;
 }
 
-.col i.facebook {
-    color:#4267b2 !important;
+.col i.fa-facebook {
+    color:#4267b2;
 }
 
-.col i.instagram {
-    color:#e8334e !important;
+.col i.fa-instagram {
+    color:#e8334e;
 }
 
-.col i.youtube {
-    color:#F00 !important;
+.col i.fa-youtube {
+    color:#F00;
 }
 
 .amino-a {
