@@ -484,15 +484,15 @@ h2, h3, h4{
 }
 
 .col i.facebook {
-    color:#4267b2;
+    color:#4267b2 !important;
 }
 
 .col i.instagram {
-    color:#e8334e;
+    color:#e8334e !important;
 }
 
 .col i.youtube {
-    color:#F00;
+    color:#F00 !important;
 }
 
 .amino-a {
