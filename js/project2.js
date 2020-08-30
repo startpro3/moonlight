@@ -108,4 +108,33 @@ $(function(){
         zindex:99999999,
     
     });
+    
+    // Scroll To Top
+    $(window).scroll(function(){
+        //Scroll To Top Button
+        var scrollTop = $('.top');
+        if($(window).scrollTop() >= 400){
+        if(scrollTop.is(':hidden')){
+            scrollTop.fadeIn(400);
+        }
+        
+        }else {
+        scrollTop.fadeOut(400);
+
+        }
+        
+    });
+
+
+
+    //Click On Scroll To Top To Go Up
+
+    $('.top').click(function (event){
+        event.preventDefault();
+        $('html, body').animate({
+        scrollTop:0
+        },1000);
+    });
+    
+    
 });
